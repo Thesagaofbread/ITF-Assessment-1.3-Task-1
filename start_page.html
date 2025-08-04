@@ -28,13 +28,15 @@
       body {
 
         background-color: var(--c-background-color);
-
+        max-width: 800px;
 
       }
 
       header {
 
         color: var(--c-yellow);
+        text-align: center;
+        font-size: 150%;
 
       }
 
@@ -48,9 +50,22 @@
         color: var(--base-font-color);
 
       }
+      main {
+
+        display: flex;
+        flex-direction: row;
+
+      }
       nav ul{
 
+        display: flex;
+        justify-content: space-around;
         list-style-type: none;
+
+      }
+      article h2, h3{
+
+        padding-top: 50px;
 
       }
       article div{
@@ -129,7 +144,7 @@
 
           <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
         </div>
-        
+
         <div>
           <h3>Another subsection</h3>
 
